@@ -449,7 +449,7 @@ class CircularGlowGauge extends StatelessWidget {
                     labelCenterBn,
                     style: AuraTextStyles.titleMedium(palette.textPrimary, size: 15),
                   ),
-                  if (labelSubBn.isNotEmpty())
+                  if (labelSubBn.isNotEmpty)
                     Text(
                       labelSubBn,
                       style: AuraTextStyles.bodyRegular(palette.textSecondary, size: 10.5),
