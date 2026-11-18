@@ -1,0 +1,40 @@
+name: aura_calculator
+description: "আউরা ক্যালকুলেটর (Aura Calculator) — Artistic Bengali Calculator & Daily Utility Suite with 3 Custom UI Themes."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bg_botanical_glass.jpg
+    - assets/images/ic_3d_calculator.png
+    - assets/images/ic_3d_age.png
+    - assets/images/ic_3d_percentage.png
+    - assets/images/ic_3d_converter.png
+    - assets/images/ic_3d_area.png
+    - assets/images/ic_3d_temperature.png
+    - assets/images/ic_3d_data.png
+    - assets/images/ic_3d_theme.png
+    - assets/images/ic_3d_history.png
+
+  fonts:
+    - family: NotoSansBengali
+      fonts:
+        - asset: assets/fonts/noto_sans_bengali_regular.ttf
+          weight: 400
+        - asset: assets/fonts/noto_sans_bengali_bold.ttf
+          weight: 700
